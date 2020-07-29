@@ -17,7 +17,7 @@
   }
   
   .bg-red {
-    background: var(--red);
+    background: var(--red)
   }
   
   .text-red {
@@ -59,7 +59,7 @@
   
   .page-header .navbar-toggler {
     /* the variable is inherited from BS4 built-in variables */
-    border-color: var(--white); 
+    border-color: rgb(235, 235, 235); ; 
   }
   
   /* BANNER SECTION
@@ -122,7 +122,7 @@
   /* MEDIUM SCREENS */
   @media screen and (max-width: 991px) {
     .page-header {
-      background: var(--red);
+      background: rgb(235, 235, 235); 
     }
   }
   

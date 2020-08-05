@@ -1,3 +1,7 @@
+html{
+   scroll-behavior: smooth;
+ }
+
 :root {
     --lightblue: #f6f9fc;
     --red: #d64041;
@@ -267,6 +271,7 @@
  body, html {
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
  }
  body {
     font-family: lato, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -580,6 +585,7 @@
  .section--card-grid-articles--is-masonry {
     opacity: 1;
     transition: opacity .1s ease-in-out;
+   
  }
  .section--card-grid-articles--is-masonry .card-grid-articles .articles-cards .articles-cards__item {
     width: 100%;
